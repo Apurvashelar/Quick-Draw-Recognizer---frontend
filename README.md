@@ -1,27 +1,38 @@
-# Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+# Quick-Draw-Recognizer-frontend
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Objective
+Training a neural network to predict the canvas drawing drawn by the user.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Work Flow and Frameworks Involved
+     
+  * **Frontend**-                  *Angular*   
+  * **Model Training**-            *PyTorch*  
+  * **Backend And API**-           *JavaScript and Flask*  
+  * **Server-Side Development** -  *Nginx and AWS*  
+   
+   
+   
+### Results
+ 
+ 
+ * **Flower Predication**
+![image2](https://user-images.githubusercontent.com/57897678/113427727-30ccdb80-93f3-11eb-9a1d-ba05c84ebfb3.png)
+ 
+ 
+ * **House Predication**
+  ![image1](https://user-images.githubusercontent.com/57897678/113427904-7f7a7580-93f3-11eb-9b7c-988e9c6802c4.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### **Dataset Creation**
+ ![image3](https://user-images.githubusercontent.com/57897678/113428513-8ce42f80-93f4-11eb-90c3-fa61eae8d7f8.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Links for downloading the datasets
 
-## Running end-to-end tests
+* **Training Dataset** - https://autonise-my.sharepoint.com/:u:/r/personal/pragya_autonise_com/Documents/StudentsShare/Internship/QuickDraw/GoogleDataImages_train.zip?csf=1&web=1&e=lC7Y9e
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* **Testing Dataset** - https://autonise-my.sharepoint.com/:u:/r/personal/pragya_autonise_com/Documents/StudentsShare/Internship/QuickDraw/GoogleDataImages_test.zip?csf=1&web=1&e=Bhvs8C
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
