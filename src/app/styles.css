@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+.bg-custom{
+    background-image: url("assets\luke-chesser-IGtutkXikuc-unsplash.jpg");
+    background-size: cover;
+}
+.bg-custom1{
+    background-color:rgb(243, 245, 157);
+    background-size: cover;
+}
