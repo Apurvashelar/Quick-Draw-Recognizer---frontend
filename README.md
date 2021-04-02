@@ -51,5 +51,13 @@ cd quick-draw recognizer
 
 #### ***Quick-Draw Recognizer Game*** is a game in which the model recognises the image drawn by user.
 
-Live at: http://3.217.150.177/ 
+Live at: http://3.217.150.177/  
+
+## You can visit my profile here:  
+
+* **GitHub** - https://github.com/Apurvashelar  
+
+* **Linkdin** - https://www.linkedin.com/in/apurva-shelar-9310671b4/  
+ 
+             
 
