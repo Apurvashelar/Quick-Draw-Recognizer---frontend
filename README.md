@@ -41,6 +41,13 @@ Training a neural network to predict the canvas drawing drawn by the user.
 * **Testing Dataset** - https://autonise-my.sharepoint.com/:u:/r/personal/pragya_autonise_com/Documents/StudentsShare/Internship/QuickDraw/GoogleDataImages_test.zip?csf=1&web=1&e=Bhvs8C  
 
 
+### Clone This Repository  
+
+git clone https://github.com/Apurvashelar/Quick-Draw-Recognizer---frontend  
+cd quick-draw recognizer  
+
+
+
 
 #### ***Quick-Draw Recognizer Game*** is a game in which the model recognises the image drawn by user.
 
