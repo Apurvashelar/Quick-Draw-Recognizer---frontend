@@ -34,4 +34,4 @@ Training a neural network to predict the canvas drawing drawn by the user.
 * **Training Dataset** - https://autonise-my.sharepoint.com/:u:/r/personal/pragya_autonise_com/Documents/StudentsShare/Internship/QuickDraw/GoogleDataImages_train.zip?csf=1&web=1&e=lC7Y9e
 
 * **Testing Dataset** - https://autonise-my.sharepoint.com/:u:/r/personal/pragya_autonise_com/Documents/StudentsShare/Internship/QuickDraw/GoogleDataImages_test.zip?csf=1&web=1&e=Bhvs8C
-* 
+
