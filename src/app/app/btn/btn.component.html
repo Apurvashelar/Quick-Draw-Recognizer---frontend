@@ -1,0 +1,8 @@
+<div class="row" *ngFor="let name of classes">
+    <div class="col">
+        <button type="button" class="btn btn-outline-dark my-2 p-1 lbls" (click) = "sendClassname(name)" >
+            {{name}}
+        </button>
+    </div>
+</div>
+

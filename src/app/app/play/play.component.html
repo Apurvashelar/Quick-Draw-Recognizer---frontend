@@ -1,0 +1,44 @@
+<body class="bg-custom">
+    <ul class="nav">
+        <li class="nav-item">
+          <!-- <a style="color: white" class="nav-link active font-weight-bold mx-4 mt-3 p-1" href="home.html"><i class="fas fa-arrow-left"></i> Back</a> -->
+          <span style="color:black; font-weight: bold; cursor: pointer;" class="nav-link active mt-3 p-1" routerLink="/home"><i class="fas fa-arrow-left px-3 color"></i>Back</span>
+        </li>
+    </ul>
+    <div class="container-fluid">
+        <div class="row my-2">
+            <div class="col-md-3">
+                <p style="margin-top: 20px; color:black; font-weight: 600; font-size: 20px;">
+                    Draw any object from the list below &   I will try to guess it !!
+                </p>
+                <div class="text-center list" *ngFor="let name of classes">
+                    <p>{{name}}</p>
+                </div>
+            </div>
+            <div class="col-md-6 p-2 text-center">
+                <p class="draw-here mb-2">Draw Inside this Canvas</p>
+                 
+
+
+                <app-my-canvas (send)="view($event)" (sendw)="getW($event)" (sendw)="getH($event)" (sendImg)="getImg($event)"></app-my-canvas>
+                <div class="row mt-5">
+                    <div class="col-md-12 draw-here">
+                        <h4>{{result}} </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="p-2 btn-confirm color" type="submit" (click)="save()">Let Me Guess</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="p-2 btn-cancel" type="submit" #clear (click)="cls()">Clear Canvas</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

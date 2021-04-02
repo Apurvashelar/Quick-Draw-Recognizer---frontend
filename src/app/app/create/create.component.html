@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<body class="bg-custom mb-4">
+    
+    <ul class="nav">
+        <li class="nav-item">
+            <span style="color:black; font-weight: bold; cursor: pointer;" class="nav-link active mt-3 p-1 color" routerLink="/home"><i class="fas fa-arrow-left px-3 color "></i>Back</span>
+          <!-- <a style="color: white" class="nav-link active font-weight-bold mx-4 mt-3 p-1" href="home.html"><i class="fas fa-arrow-left"></i> Back</a> -->
+        </li>
+    </ul>
+    <div class="container-fluid">
+        <div class="row h-100">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="p-2 mt-4 mb-2 bg-light text-dark text-center rounded font-weight-bold bc">Steps to play</div>
+                    </div>
+                </div>
+                <div style="color: black">
+                    <p>1. Choose one of the Labels provided on the right. <br>(For eg. Sun, Flower, Umbrella)</p>
+                    <p>2. Draw inside the given Canvas area.</p>
+                    <p>3. Press 'Confirm Selection'.</p>
+                    <p>4. If you make a mistake in while drawing, press 'Clear Selection'.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p class="draw-here mb-2">Draw Inside this Canvas</p>
+                
+
+                <app-my-canvas (send)="view($event)" (sendw)="getW($event)" (sendh)="getH($event)" (sendImg)="getImg($event)" ></app-my-canvas>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="p-2 mt-4 mb-2 bg-light text-dark text-center rounded font-weight-bold">Choose from the labels</div>
+                    </div>
+                </div>
+                <app-btn (classname)="getClass($event)"></app-btn>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-success lbls my-3 p-2 rounded-pill" type="submit" (click) = "saveImage()" >Confirm Selection</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-danger lbls p-2 rounded-pill mr" type="submit" #clearbtn  (click)="cls()">Clear Canvas</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+

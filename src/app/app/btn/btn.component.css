@@ -1,0 +1,10 @@
+.lbls {
+    width: 100%;
+    font-weight: 550;
+}
+
+.lbls:focus{
+    color: black;
+    background-color: rgb(177, 236, 247);
+    font-weight: bold;
+}
