@@ -1,4 +1,4 @@
-# Quick-Draw-Recognizer-frontend
+# Quick-Draw Recognizer-frontend
 
 
 
