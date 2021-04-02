@@ -42,7 +42,7 @@ Training a neural network to predict the canvas drawing drawn by the user.
 
 
 
-#### *Quick-Draw Recognizer Game* is a game in which the model recognises the image drawn by user.
+#### ** *Quick-Draw Recognizer Game* ** is a game in which the model recognises the image drawn by user.
 
 Live at: http://3.217.150.177/ 
 
